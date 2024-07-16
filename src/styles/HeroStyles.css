@@ -3,23 +3,27 @@
   flex-direction: column;
   margin-left: 10%;
   margin-top: 10%;
+  position: absolute;
 }
 
 #veticle-line{
-  background-image: linear-gradient(aquamarine, white);
-  height: 30%;
+  background-image: linear-gradient(black, aquamarine, white);
+  height: 90%;
   width: 5px;
   position: absolute;
-  margin-right: 2%;
+  margin-right: 4%;
 }
 
 h1{
   font-size: 50px;
   margin-bottom: 1px;
   margin-top: 1px;
-  margin-left: 3%;
+  margin-left: 5%;
+  font-family: 'Brush Script MT', cursive;
 }
 
 h3{
-  margin-left: 3%;
+  margin-left: 5%;
+  font-size: 25px;
+  font-family: cursive;
 }
