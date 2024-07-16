@@ -1,13 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-
-const App = () => {
-  return(
-    <h1> Developer Portfolio</h1>
-  )
-}
+import Applayout from "./src/components/Applayout";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(<App/>);
-
-export default App;
+root.render(<Applayout/>);
