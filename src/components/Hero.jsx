@@ -10,6 +10,7 @@ const Hero = () => {
           <h1>Hi, I'm Sakshi</h1>
           <h3>I develop user interfaces and the web applications</h3>
         </div>
+        <div id="image-div"></div>
       </div>
     </div>
   )
