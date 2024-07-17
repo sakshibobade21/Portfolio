@@ -1,21 +1,26 @@
 #intro-header{
   display: flex;
   flex-direction: column;
-  margin-left: 10%;
-  margin-top: 10%;
   position: absolute;
-  width: 80%;
-  height: 70%;
+  width: 100%;
+  height: 80%;
+  background-position: center;
+  background-image: url('../assets/backg.png');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  margin-right: 0%;
+  margin-top: 7%;
   /* border: 3px solid black; */
 }
 
 #veticle-line{
-  background-image: linear-gradient(black, aquamarine, white);
-  height: 50%;
+  background-image: linear-gradient(black, aquamarine);
+  height: 25%;
   width: 5px;
   position: absolute;
   margin-left: -20%;
   margin-right: 4%;
+  margin-top: 6%;
   animation-name: linemove;
   animation-duration: 1s;
   animation-delay: 0.3s;
@@ -26,8 +31,8 @@
 h1{
   font-size: 50px;
   margin-bottom: 1px;
-  margin-top: 1px;
-  margin-left: -20%;
+  margin-top: 10%;
+  margin-left: 10%;
   font-family: 'Brush Script MT', cursive;
   animation-name: h1move;
   animation-duration: 1s;
@@ -37,7 +42,8 @@ h1{
 }
 
 h3{
-  margin-left: -20%;
+  margin-top: 2%;
+  margin-left: 10%;
   font-size: 25px;
   font-family: cursive;
   animation-name: h1move;
@@ -54,10 +60,9 @@ h3{
 
 #image-div{
   margin-left: 100%;
-  width: 50%;
+  width: 40%;
   height: 100%;
   position: absolute;
-  margin-top: -6%;
   background-image: url('../assets/girl5.png');
   background-size: 80% 80%;
   background-repeat: no-repeat;
@@ -69,21 +74,21 @@ h3{
 }
 
 @keyframes imagemove {
-    0%{margin-left: 100%;}
-    100%{margin-left: 60%;}
+    0%{margin-left: 100%; }
+    100%{margin-left: 70%;}
 }
 
 @keyframes h1move {
   0%{margin-left: -20%;}
-  100%{margin-left: 5%;}
+  100%{margin-left: 20%;}
 }
 
 @keyframes h3move {
   0%{margin-left: -20%;}
-  100%{margin-left: 5%;}
+  100%{margin-left: 20%;}
 }
 
 @keyframes linemove {
-  0%{margin-left: -20%;}
-  100%{margin-left: 0%;}
+  0%{margin-left: -20%; height: 0%;}
+  100%{margin-left: 10%; height: 25%;}
 }
