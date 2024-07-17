@@ -17,7 +17,7 @@
   margin-left: -20%;
   margin-right: 4%;
   animation-name: linemove;
-  animation-duration: 2s;
+  animation-duration: 1s;
   animation-delay: 0.3s;
   animation-fill-mode: forwards;
   /* border: 3px solid pink; */
@@ -62,7 +62,7 @@ h3{
   background-size: 80% 80%;
   background-repeat: no-repeat;
   animation-name: imagemove;
-  animation-duration: 2s;
+  animation-duration: 1.2s;
   animation-delay: 0.1s;
   animation-fill-mode: forwards;
   /* border: 3px solid orange; */
