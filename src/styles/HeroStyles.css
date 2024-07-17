@@ -14,7 +14,12 @@
   height: 50%;
   width: 5px;
   position: absolute;
+  margin-left: -20%;
   margin-right: 4%;
+  animation-name: linemove;
+  animation-duration: 2s;
+  animation-delay: 0.3s;
+  animation-fill-mode: forwards;
   /* border: 3px solid pink; */
 }
 
@@ -22,15 +27,23 @@ h1{
   font-size: 50px;
   margin-bottom: 1px;
   margin-top: 1px;
-  margin-left: 5%;
+  margin-left: -20%;
   font-family: 'Brush Script MT', cursive;
+  animation-name: h1move;
+  animation-duration: 1s;
+  animation-delay: 0.1s;
+  animation-fill-mode: forwards;
   /* border: 3px solid red; */
 }
 
 h3{
-  margin-left: 5%;
+  margin-left: -20%;
   font-size: 25px;
   font-family: cursive;
+  animation-name: h1move;
+  animation-duration: 1s;
+  animation-delay: 0.1s;
+  animation-fill-mode: forwards;
   /* border: 3px solid yellow; */
 }
 
@@ -40,7 +53,7 @@ h3{
 }
 
 #image-div{
-  margin-left: 60%;
+  margin-left: 100%;
   width: 50%;
   height: 100%;
   position: absolute;
@@ -48,5 +61,29 @@ h3{
   background-image: url('../assets/girl5.png');
   background-size: 80% 80%;
   background-repeat: no-repeat;
+  animation-name: imagemove;
+  animation-duration: 2s;
+  animation-delay: 0.1s;
+  animation-fill-mode: forwards;
   /* border: 3px solid orange; */
+}
+
+@keyframes imagemove {
+    0%{margin-left: 100%;}
+    100%{margin-left: 60%;}
+}
+
+@keyframes h1move {
+  0%{margin-left: -20%;}
+  100%{margin-left: 5%;}
+}
+
+@keyframes h3move {
+  0%{margin-left: -20%;}
+  100%{margin-left: 5%;}
+}
+
+@keyframes linemove {
+  0%{margin-left: -20%;}
+  100%{margin-left: 0%;}
 }
