@@ -8,7 +8,7 @@ import '../styles/Applayout.css'
 const Applayout = () => {
   return(
     <div id="app-layout">
-      {/* <Navbar/> */}
+      <Navbar/>
       <Hero/>
     </div>
   )

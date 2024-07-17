@@ -9,12 +9,12 @@
   background-size: 100% 100%;
   background-repeat: no-repeat;
   margin-right: 0%;
-  margin-top: 7%;
+  margin-top: 0%;
   /* border: 3px solid black; */
 }
 
 #veticle-line{
-  background-image: linear-gradient(black, aquamarine);
+  background-image: linear-gradient(black, #8A3240, white);
   height: 25%;
   width: 5px;
   position: absolute;
@@ -34,6 +34,7 @@ h1{
   margin-top: 10%;
   margin-left: 10%;
   font-family: 'Brush Script MT', cursive;
+  color: #8A3240;
   animation-name: h1move;
   animation-duration: 1s;
   animation-delay: 0.1s;
@@ -50,6 +51,7 @@ h3{
   animation-duration: 1s;
   animation-delay: 0.1s;
   animation-fill-mode: forwards;
+  color: #8A3240;
   /* border: 3px solid yellow; */
 }
 
@@ -60,8 +62,9 @@ h3{
 
 #image-div{
   margin-left: 100%;
-  width: 40%;
-  height: 100%;
+  width: 30%;
+  height: 80%;
+  margin-top: 5%;
   position: absolute;
   background-image: url('../assets/girl5.png');
   background-size: 80% 80%;
