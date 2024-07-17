@@ -10,6 +10,8 @@
   background-repeat: no-repeat;
   margin-right: 0%;
   margin-top: 0%;
+  border-radius: 1%;
+  box-shadow: 10px 10px 5px #c5c1c3;
   /* border: 3px solid black; */
 }
 
