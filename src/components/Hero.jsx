@@ -14,8 +14,8 @@ const Hero = () => {
         <div id="veticle-line"></div>
         <div id='about-me'>
           <div id="hero-header">
-            <h1>Hi, I'm Sakshi</h1>
-            <h3>Full Stack Developer, Crafting Dynamic Web Applications & User-Centric Interfaces</h3>
+            <h1 id='hi-intro'>Hi, I'm Sakshi</h1>
+            <h3 id='intro'>Full Stack Developer, Crafting Dynamic Web Applications & User-Centric Interfaces</h3>
           </div>
           <div id='about-icons'>
             <div id="icon" className='linkedin-icon'><LinkedInIcon /></div>
