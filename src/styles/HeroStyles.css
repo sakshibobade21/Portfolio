@@ -82,6 +82,57 @@ h3{
   animation-fill-mode: forwards;
 }
 
+#about-icons{
+  width: 13%;
+  color: white;
+  margin-top: 5%;
+  display: flex;
+  justify-content: space-between;
+  animation-name: icons;
+  animation-duration: 1s;
+  animation-delay: 2s;
+  animation-fill-mode: forwards;
+  visibility: hidden;
+}
+
+#icon{
+  font-size: x-large !important;
+  color: white;
+}
+
+#icon:hover{
+  cursor: pointer;
+}
+
+#resume-button{
+  margin-left: 12%;
+  margin-top: 2%;
+  color: white;
+  /* border-color: #420264; */
+  border: none;
+  outline: none;
+  background: linear-gradient(to right, #420264, #b17bcf, #ce94ee, #daa9f5);
+  animation-name: resumeButton;
+  animation-duration: 1s;
+  animation-delay: 2.3s;
+  animation-fill-mode: forwards;
+  visibility: hidden;
+}
+
+#text-resume{
+  color: black;
+}
+
+@keyframes resumeButton {
+  0%{margin-left: -7%; width: 0%; visibility: hidden;}
+  100%{margin-left: 12%; width: 13%; visibility: visible;}
+}
+
+@keyframes icons {
+  0%{margin-left: -7%; visibility: hidden;}
+  100%{margin-left: 12%; visibility: visible;}
+}
+
 @keyframes headerDivMove {
   0%{width: 0%; height: 0%; margin: 50%; background-color: white ;transform: rotateX(0deg);}
   100%{width: 98%; height: 80%; margin: 2% 1% ;transform: rotateX(0deg);}
@@ -104,5 +155,5 @@ h3{
 
 @keyframes linemove {
   0%{margin-left: -20%; height: 0%; visibility: visible;}
-  100%{margin-left: 10%; height: 25%; visibility: visible;}
+  100%{margin-left: 10%; height: 30%; visibility: visible;}
 }
