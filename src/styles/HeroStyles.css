@@ -5,18 +5,22 @@
   width: 100%;
   height: 80%;
   background-position: center;
-  background-image: url('../assets/backg.png');
+  background-color: rgb(20, 18, 18);
   background-size: 100% 100%;
   background-repeat: no-repeat;
   margin-right: 0%;
   margin-top: 0%;
-  border-radius: 1%;
-  box-shadow: 10px 10px 5px #c5c1c3;
-  /* border: 3px solid black; */
+  box-shadow: 0px 0px 5px 10px #c5c1c3;
+  border-radius: 20px;
+  animation-name: headerDivMove;
+  animation-duration: 1s;
+  animation-delay: 0.1s;
+  animation-fill-mode: forwards;
 }
 
 #veticle-line{
-  background-image: linear-gradient(black, #8A3240, white);
+  visibility: hidden;
+  background-image: linear-gradient(white, #420264);
   height: 25%;
   width: 5px;
   position: absolute;
@@ -25,75 +29,80 @@
   margin-top: 6%;
   animation-name: linemove;
   animation-duration: 1s;
-  animation-delay: 0.3s;
+  animation-delay: 1s;
   animation-fill-mode: forwards;
-  /* border: 3px solid pink; */
 }
 
 h1{
+  visibility: hidden;
   font-size: 50px;
   margin-bottom: 1px;
   margin-top: 10%;
   margin-left: 10%;
   font-family: 'Brush Script MT', cursive;
-  color: #8A3240;
+  color: white;
   animation-name: h1move;
   animation-duration: 1s;
-  animation-delay: 0.1s;
+  animation-delay: 1s;
   animation-fill-mode: forwards;
-  /* border: 3px solid red; */
 }
 
 h3{
+  visibility: hidden;
   margin-top: 2%;
   margin-left: 10%;
-  font-size: 25px;
+  font-size: 20px;
   font-family: cursive;
+  width: 60%;
   animation-name: h1move;
   animation-duration: 1s;
-  animation-delay: 0.1s;
+  animation-delay: 1s;
   animation-fill-mode: forwards;
-  color: #8A3240;
-  /* border: 3px solid yellow; */
+  color: white;
 }
 
 #hero-header{
   width: 60%;
-  /* border: 3px solid blue; */
 }
 
 #image-div{
-  margin-left: 100%;
-  width: 30%;
-  height: 80%;
-  margin-top: 5%;
+  margin-left: 65%;
+  visibility: hidden;
+  width: 45%;
+  height: 110%;
+  margin-top: 0%;
+  margin-right: 0%;
   position: absolute;
-  background-image: url('../assets/girl5.png');
+  background-image: url('../assets/illustrations/i1.jpg');
   background-size: 80% 80%;
   background-repeat: no-repeat;
   animation-name: imagemove;
   animation-duration: 1.2s;
-  animation-delay: 0.1s;
+  animation-delay: 1s;
   animation-fill-mode: forwards;
-  /* border: 3px solid orange; */
+}
+
+@keyframes headerDivMove {
+  0%{width: 0%; height: 0%; margin: 50%; background-color: white ;transform: rotateX(0deg);}
+  100%{width: 98%; height: 80%; margin: 2% 1% ;transform: rotateX(0deg);}
 }
 
 @keyframes imagemove {
-    0%{margin-left: 100%; }
-    100%{margin-left: 70%;}
+    0%{margin-left: 65%; visibility: visible; }
+    100%{margin-left: 55%; visibility: visible;}
 }
 
 @keyframes h1move {
-  0%{margin-left: -20%;}
-  100%{margin-left: 20%;}
+  0%{margin-left: -20%; visibility: visible;}
+  100%{margin-left: 20%; visibility: visible;}
 }
 
 @keyframes h3move {
-  0%{margin-left: -20%;}
-  100%{margin-left: 20%;}
+  0%{margin-left: -20%; visibility: visible;}
+  100%{margin-left: 20%; visibility: visible;}
 }
 
 @keyframes linemove {
-  0%{margin-left: -20%; height: 0%;}
-  100%{margin-left: 10%; height: 25%;}
+  0%{margin-left: -20%; height: 0%; visibility: visible;}
+  100%{margin-left: 10%; height: 25%; visibility: visible;}
 }

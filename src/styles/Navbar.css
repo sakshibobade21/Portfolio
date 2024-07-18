@@ -4,6 +4,9 @@
   padding: 1%;
   margin-right: 0px;
   position: relative;
+  background-color: white;
+  box-shadow: 10px 10px 5px #c5c1c3;
+  border-radius: 2px;
 }
 
 #menu-div{
@@ -22,7 +25,7 @@
 
 .manuItem:hover{
   cursor: pointer;
-  color: #8A3240;
+  color: #a102f6;
 }
 
 #hello-text{

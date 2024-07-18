@@ -8,7 +8,7 @@ const Hero = () => {
         <div id="veticle-line"></div>
         <div id="hero-header">
           <h1>Hi, I'm Sakshi</h1>
-          <h3>I develop user interfaces and the web applications</h3>
+          <h3>Full Stack Developer, Crafting Dynamic Web Applications & User-Centric Interfaces</h3>
         </div>
         <div id="image-div"></div>
       </div>
