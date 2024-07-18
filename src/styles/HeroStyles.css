@@ -123,6 +123,10 @@ h3{
   color: black;
 }
 
+#resume-button:hover{
+  cursor: pointer;
+}
+
 @keyframes resumeButton {
   0%{margin-left: -7%; width: 0%; visibility: hidden;}
   100%{margin-left: 12%; width: 13%; visibility: visible;}
