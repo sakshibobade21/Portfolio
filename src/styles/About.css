@@ -1,10 +1,12 @@
 #about-div{
   display: flex;
+  flex-direction: column;
   width: 100%;
-  height: 50%;
-  top: 95%;
+  height: 100%;
+  top: 52%;
   justify-content: center;
   position: absolute;
+  align-items: center;
 }
 
 #overview-heading{
@@ -12,4 +14,73 @@
   color: #420264;
   font-size: 30px;
   font-family: cursive;
+}
+#desc-header{
+  position: absolute;
+  top: 55%;
+  left: 5%;
+  font-size: 23px;
+  font-family: cursive;
+  font-weight: 900;
+  color: #420264;
+  text-underline-offset: 6px;
+  text-decoration: underline;
+}
+
+#description{
+  position: absolute;
+  top: 62%;
+  left: 5%;
+  right: 4%;
+  font-size: 20px;
+  font-family: cursive;
+  font-weight: 900;
+}
+
+#technologies{
+  /* margin-top: 50%; */
+  position: absolute;
+  top: 82%;
+  left: 5%;
+  font-size: 23px;
+  font-family: cursive;
+  font-weight: 900;
+  color: #420264;
+  text-underline-offset: 6px;
+  text-decoration: underline;
+}
+
+#skill-set{
+  display: flex;
+  flex-wrap: wrap;
+  position: absolute;
+  top: 90%;
+  height: 40%;
+  width: 90%;
+  left: 5%;
+  right: 5%;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10px;
+  box-sizing: border-box;
+}
+
+#skill-item{
+  display: flex;
+  justify-content: space-between;
+  width: 15%;
+  height: 20%;
+  background-color: white;
+  box-sizing: border-box;
+  overflow: hidden;
+  background: linear-gradient(to right, rgb(169, 168, 168), rgb(208, 208, 208));
+  padding: 0 10px;;
+}
+
+#skill-name{
+  padding-right: 10px;
+  font-size: 20px;
+  font-family: cursive;
+  margin-top: 7%;
+  margin-left: 1px;
 }
