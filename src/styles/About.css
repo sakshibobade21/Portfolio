@@ -55,26 +55,29 @@
   flex-wrap: wrap;
   position: absolute;
   top: 90%;
-  height: 40%;
+  height: 100%;
   width: 90%;
   left: 5%;
   right: 5%;
-  justify-content: space-between;
+  justify-content: left;
   align-items: center;
-  padding: 0 10px;
+  padding: 0 10px 10px 10px;
   box-sizing: border-box;
+  align-content: start;
 }
 
 #skill-item{
   display: flex;
   justify-content: space-between;
   width: 15%;
-  height: 20%;
+  height: 8%;
   background-color: white;
   box-sizing: border-box;
   overflow: hidden;
-  background: linear-gradient(to right, rgb(169, 168, 168), rgb(208, 208, 208));
-  padding: 0 10px;;
+  background: rgb(246, 246, 246);
+  padding: 0px 10px;
+  margin: 1% 2%;
+  border-radius: 10%;
 }
 
 #skill-name{
@@ -83,4 +86,9 @@
   font-family: cursive;
   margin-top: 7%;
   margin-left: 1px;
+}
+
+#skill-image{
+  overflow: hidden;
+  padding: 5px;
 }

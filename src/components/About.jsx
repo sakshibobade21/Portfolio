@@ -13,7 +13,7 @@ const About = () => {
       <div id="skill-set">
         {SKILLS.map((skill,index) => (
           <div id="skill-item" key={index}>
-           <img src={SKILLS_IMG[index]}/>
+           <img id="skill-image" src={SKILLS_IMG[index]}/>
            <div id='skill-name'>{skill}</div>
           </div>
         ))}

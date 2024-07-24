@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import '../styles/HeroStyles.css';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import GitHubIcon from '@mui/icons-material/GitHub';
@@ -23,8 +23,7 @@ const Hero = () => {
             <div id="icon" className='email-icon'><EmailIcon /></div>
             <div id="icon" className='phone-icon'><PhoneIcon /></div>
           </div>
-          <div><Button id="resume-button" variant="outlined" size="medium"><span id='text-resume'>RESUME</span></Button>
-          </div>
+          <div><Button id="resume-button" variant="outlined" size="medium"><span id='text-resume'>RESUME</span></Button></div>
         </div>
         <div id="image-div"></div>
       </div>

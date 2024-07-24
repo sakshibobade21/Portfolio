@@ -119,7 +119,7 @@
   background: linear-gradient(to right, #420264, #b17bcf, #ce94ee, #daa9f5);
   animation-name: resumeButton;
   animation-duration: 1s;
-  animation-delay: 2.3s;
+  animation-delay: 2.1s;
   animation-fill-mode: forwards;
   visibility: hidden;
 }
@@ -144,7 +144,7 @@
 
 @keyframes headerDivMove {
   0%{width: 0%; height: 0%; margin: 50%; background-color: white ;transform: rotateX(0deg);}
-  100%{width: 98%; height: 80%; margin: 1% 1% ;transform: rotateX(0deg);}
+  100%{width: 98%; height: 80%; margin: 1% 1% 0% 1% ;transform: rotateX(0deg);}
 }
 
 @keyframes imagemove {
