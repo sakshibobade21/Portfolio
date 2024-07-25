@@ -7,18 +7,19 @@
   justify-content: center;
   position: absolute;
   align-items: center;
+  top: 70%;
 }
 
 #overview-heading{
-  position: absolute;
+  position: relative;
   color: #420264;
   font-size: 30px;
   font-family: cursive;
 }
+
 #desc-header{
-  position: absolute;
-  top: 55%;
-  left: 5%;
+  margin-top: 1%;
+  margin-bottom: 2%;
   font-size: 23px;
   font-family: cursive;
   font-weight: 900;
@@ -28,20 +29,15 @@
 }
 
 #description{
-  position: absolute;
-  top: 62%;
-  left: 5%;
-  right: 4%;
+  margin: 1%;
+  margin-left: 5%;
   font-size: 20px;
   font-family: cursive;
   font-weight: 900;
 }
 
 #technologies{
-  /* margin-top: 50%; */
-  position: absolute;
-  top: 82%;
-  left: 5%;
+  margin-top: 3%;
   font-size: 23px;
   font-family: cursive;
   font-weight: 900;
@@ -54,11 +50,9 @@
   display: flex;
   flex-wrap: wrap;
   position: absolute;
-  top: 90%;
   height: 100%;
   width: 90%;
-  left: 5%;
-  right: 5%;
+  margin-top: 90%;
   justify-content: left;
   align-items: center;
   padding: 0 10px 10px 10px;

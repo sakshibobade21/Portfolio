@@ -4,6 +4,7 @@ import { ABOUT_ME, SKILLS, SKILLS_IMG } from '../utils/constant';
 
 
 const About = () => {
+
   return (
     <div id='about-div'>
       <h1 id='overview-heading'>Overview</h1>
