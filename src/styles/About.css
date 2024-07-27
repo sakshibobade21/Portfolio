@@ -52,12 +52,27 @@
   position: absolute;
   height: 100%;
   width: 90%;
-  margin-top: 90%;
   justify-content: left;
   align-items: center;
+  left: 7%;
   padding: 0 10px 10px 10px;
   box-sizing: border-box;
-  align-content: start;
+  align-content: center;
+  visibility: hidden;
+}
+
+.skill-set-visible {
+  animation-name: skillSetPop;
+  animation-duration: 1s;
+  animation-delay: 0.1s;
+  animation-fill-mode: both;
+  visibility: visible;
+}
+
+@keyframes skillSetPop {
+  0%{margin-top: 85%; visibility: hidden;}
+  50%{margin-top: 63%; visibility: visible;}
+  100%{margin-top: 70%; visibility: visible;}
 }
 
 #skill-item{
